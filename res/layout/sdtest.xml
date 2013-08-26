@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fileSignInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="file sign in" />
+
+            <Button
+                android:id="@+id/signInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sign in" />
+
+            <Button
+                android:id="@+id/signOutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sign out" />
+
+            <Button
+                android:id="@+id/fileListButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="get list" />
+
+            <Button
+                android:id="@+id/userInfoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user info" />
+
+            <Button
+                android:id="@+id/folderButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="folder" />
+
+            <Button
+                android:id="@+id/moveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="move" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Results will display here." />
+
+    <TextView
+        android:id="@+id/userInfoTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="user Info..." />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

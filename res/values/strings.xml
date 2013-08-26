@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">FileViewer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FileViewer</string>
+
+    <!-- qc -->
+    <string name="pref_lab_quick_controls" msgid="3267606522082281367">"クイックコントロール"</string>
+    <string name="pref_lab_quick_controls_summary" msgid="3149664132600968775">"クイックコントロールを開くには左端または右端から親指をスライドさせます"</string>
+    <string name="pref_lab_fullscreen" msgid="8173609016657987973">"全画面"</string>
+    <string name="pref_lab_fullscreen_summary" msgid="7694738112219376740">"全画面モードを使用してステータスバーを非表示にする"</string>
+
+</resources>

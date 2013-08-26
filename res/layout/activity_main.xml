@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Up"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/up"
+                android:text="上へ"/>
+
+            <ImageButton
+                android:id="@+id/Search"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/search" />
+
+            <ImageButton
+                android:id="@+id/Sort"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sort" />
+
+            <ImageButton
+                android:id="@+id/Cloud"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cloud" />
+
+            <ImageButton
+                android:id="@+id/Select"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/select" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/Select_return"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/select" />
+
+            <ImageButton
+                android:id="@+id/Copy"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/copy" />
+
+            <ImageButton
+                android:id="@+id/Cut"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cut" />
+
+            <ImageButton
+                android:id="@+id/Paste"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/paste" />
+
+            <Button
+                android:id="@+id/Remove"
+                style="@drawable/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Button" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+<TextView
+    android:id="@+id/current_dir"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+<ListView
+    android:id="@+id/select_file"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+>
+
+    </ListView>
+
+</LinearLayout>
